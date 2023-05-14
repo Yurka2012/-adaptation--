@@ -1,1 +1,0 @@
-How to do site look beutiful in any device

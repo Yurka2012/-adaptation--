@@ -20,10 +20,28 @@ img {
   height: auto;
 }
 
+/* header {
+  min-width: 320px;
+  background-color: red;
+}
+
+@media (min-width: 767px) {
+  header {
+    background-color: blue;
+    min-width: 768px;
+  }
+}
+
+@media (max-width: 380px) {
+  .img {
+    max-width: 380px;
+  }
+} */
+
 .header {
   width: 480px;
   height: 60px;
-  background-color: white;
+  background: #ffffff;
 
   padding: 16px 15px;
 
@@ -31,6 +49,7 @@ img {
   justify-content: space-around;
   align-items: center;
 }
+
 .burger {
   width: 40px;
   height: 40px;
@@ -38,7 +57,6 @@ img {
 
 .logo {
   width: 134px;
-  height: 28px;
 
   font-family: "Raleway";
   font-style: normal;
@@ -47,31 +65,40 @@ img {
   line-height: 28px;
   letter-spacing: 0.03em;
 
+  color: black;
+}
+
+.WEB {
   color: #2196f3;
 }
-.logo--{
-  width: 134px;
-  height: 28px;
 
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  letter-spacing: 0.03em;
-  color: rgb(0, 0, 0);
+.nav {
+  display: none;
 }
 
-@media (min-width: 767px;) {
+@media (min-width: 767px) {
   .header {
-    width: 770;
+    width: 768px;
     height: 80px;
-    background-color: white;
-  
+
+    background: #ffffff;
+
     padding: 26px 15px;
-  
+
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .logo {
+    margin-right: 90px;
+  }
+
+  .nav {
+    display: block;
   }
 }
