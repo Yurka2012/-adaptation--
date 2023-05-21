@@ -129,20 +129,65 @@ img {
 
     color: #212121;
   }
-  .contacts-link{
+  .contacts-link {
     color: #212121;
   }
 }
 
 /* the end */
 
+@media (min-width: 1200px) {
+  .header {
+    margin: 0 10px;
+    margin: 0 auto;
 
+    width: 768px;
+    height: 80px;
 
+    background: #ffffff;
 
+    padding: 26px 15px;
 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 
+  .burger {
+    display: none;
+  }
 
+  .logo {
+    margin-right: 150px;
+  }
 
+  .nav {
+    display: block;
+  }
 
+  .contacts {
+    display: block;
+  }
 
+  .nav-list {
+    display: flex;
+  }
+  .nav__list--item:not(:last-child) {
+    margin-right: 100px;
+  }
+  .nav-link {
+    height: 18px;
 
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.0345em;
+
+    color: #212121;
+  }
+  .contacts-link {
+    color: #212121;
+  }
+}
