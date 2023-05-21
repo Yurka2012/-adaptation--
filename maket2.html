@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{display:none;}
+        
+        @media (min-width: 1200px){
+            .burger{display: none;}
+            header{
+                display: flex; justify-content: space-between;align-items: center;
+            }
+            ol ,ul{
+                display: flex;
+                list-style: none;
+            }
+            li{
+                margin: 20px;
+            
+            }
+            li:hover{
+                color: #1A75E8;
+            }
+            .sing-up{
+                background-color: #1A75E8;
+                color: #ffffff;
+                padding: 15px 30px;
+                border-radius: 15px;
+            }
+            .sing-up:hover{
+                color: #ffffff;
+            }
+            .log-in-menu{
+                text-align: end;
+                align-items: center;
+            }
+            .nav{
+                text-align: center;
+                align-items: center;
+                margin-left: 260px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav style="display: flex; justify-content: space-between;align-items: center;">
+            <h1><img src="./Vector.svg" alt="">
+            <span style="color:#0F1138;">FindYour</span><span style="color:#1A75E8;">Job</span></h1>
+            <div class="burger"><img src="./menu-burger.svg" alt=""></div>
+            <ul class="nav">
+                <li>главная</li>
+                <li>вакансии</li>
+                <li>компании</li>
+            </ul>
+        </nav>
+        <ul class="log-in-menu">
+            <li>log in</li>
+            <li class="sing-up">sign up</li>
+        </ul>
+    </header>
+</body>
+</html>

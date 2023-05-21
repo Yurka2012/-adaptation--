@@ -161,11 +161,8 @@ img {
     margin-right: 150px;
   }
 
+  .contacts,
   .nav {
-    display: block;
-  }
-
-  .contacts {
     display: block;
   }
 
