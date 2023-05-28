@@ -28,7 +28,7 @@
         padding: 0 15px;
       }
       .title {
-        width: 360px;
+        min-width: 360px;
         height: 84px;
 
         font-family: "Roboto";
@@ -68,12 +68,37 @@
 
         color: white;
         margin: 0 auto;
-        margin-bottom: 40px; 
+        margin-bottom: 40px;
       }
-      @media (min-width: 770px){
+      @media (min-width: 770px) {
+        .hero {
+          background-image: url(./Header-img-tablet.png);
+        }
+      }
+      @media (min-width: 1200px) {
+        .hero {
+          background-image: url(./imgd.png);
+        }
+        .title {
+          
+          width: 696px;
+          height: 120px;
 
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 44px;
+          line-height: 136%;
+
+          letter-spacing: 0.06em;
+
+          color: white;
+        }
       }
+
+  
     </style>
+    <link rel="stylesheet" href="./333.css">
   </head>
   <body>
     <main>
@@ -85,6 +110,34 @@
           <button class="button">
             <p class="button-text">Замовити послугу</p>
           </button>
+        </div>
+      </section>
+
+      <section class='comanda'>
+        <div class='container'>
+            <h2 class='nasha-comanda'>
+                Nasha comanda
+            </h2>
+
+            <ul class="team">
+                <li class='team-list-item'>
+                    <img src='miha.jpg' alt='.' class="miha"/>
+                    <div class="cont">
+                      <h3>Великий Міха</h3>
+                      <p>великий міха топчик</p>
+                      <ul class='social-media'>
+                          <li class='social-media-list-item'><a href="./"> <img src="./twitter.png" alt="."/></a></li>
+                          <li class='social-media-list-item'><a href="./"> <img src="./twitter.png" alt="."/></a></li>
+                          <li class='social-media-list-item'><a href="./"> <img src="./twitter.png" alt="."/></a></li>
+                          <li class='social-media-list-item'><a href="./"> <img src="./twitter.png" alt="."/></a></li>
+                      </ul>
+                    </div>
+
+                </li>
+                <li class='team-list-item'></li>
+                <li class='team-list-item'></li>
+                <li class='team-list-item'></li>
+            </ul>
         </div>
       </section>
     </main>
