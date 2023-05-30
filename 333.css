@@ -1,26 +1,2 @@
-.team-list-item {
-  width: 450px;
-  height: 622px;
-  text-align: center;
-}
-.miha {
-  width: 450px;
-  height: 460px;
-}
-.social-media {
-  width: 206px;
-  height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.social-media-list-item{
-    width: 20px;
-    height: 20px;
-}
-.social-media-list-item:not(:last-child){
-    margin-right: 10px;
-}
-.social-media{
-    margin:0 auto;
-}
+
+
