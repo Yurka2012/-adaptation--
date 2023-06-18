@@ -45,3 +45,19 @@ header::before{
 
     background-color: #00c5f1;
 }
+
+
+.header-body{
+    position: relative;
+
+    top: 0;
+    left: 0;
+
+    height: 80px;
+}
+a{
+    color:rgb(238, 255, 0);
+}
+.header-list{
+    
+}
