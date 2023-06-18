@@ -32,7 +32,7 @@ header{
     z-index: 50;
 }
 main{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
 }
 header::before{
     content: "";
@@ -54,10 +54,35 @@ header::before{
     left: 0;
 
     height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center
 }
 a{
-    color:rgb(238, 255, 0);
+    color:rgb(255, 230, 0);
 }
-.header-list{
-    
+.burger-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-body img{
+    width: 100%;
+    display: block;
+    border-radius: 70%;
+}
+.header-logo{
+    flex: 0 0 60px;
+    align-items: center;
+}
+
+.burger-list-item:not(:last-child){
+    margin-right: 30px;
+}
+.burger-list-item{
+    /* margin-right: 30px; */
+    font-size: 26px;
+    line-height: 36px;
+    text-transform: uppercase;
 }
