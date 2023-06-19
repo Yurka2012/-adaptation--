@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    pading: 0;
+}
+ul,ol{
+    list-style: none;
+}
+img{
+    display: block;
+}
+.twitter img{
+    width: 10px;
+}
